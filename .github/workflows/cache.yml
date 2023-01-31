@@ -1,7 +1,7 @@
 name: "BREX cache"
 on:
   schedule:
-    - cron: '* 1 * * *'
+    - cron: '0 1 * * *'
   workflow_dispatch:
     inputs:
       script_date:
